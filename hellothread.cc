@@ -3,6 +3,7 @@
 
 using namespace std;
 
+//Callebale object -> Thread Entry Point
 void hello(){
     std::cout<<"Hello Thread\n";
 }
