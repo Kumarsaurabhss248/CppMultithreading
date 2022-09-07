@@ -8,9 +8,9 @@ void hello(){
     std::cout<<"Hello Thread\n";
 }
 int main(){
-      thread t{ hello }; // Calling a thread
+      thread t{ hello }; // Starting a thread
       cout<<"Doing some work"<<endl;
-       t.join(); //Tells the main fucnction to stop til this thread runs
+       t.join(); //Tells the main fucnction to stop till this thread finishes
 /* When more than one thread runnings at same time there action can "interleave" */ 
       return 0;
 }
