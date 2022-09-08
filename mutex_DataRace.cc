@@ -1,4 +1,6 @@
-//Adding  mutex solves the problem of data inconsistency in this case
+//Adding  mutex solves the problem of scrambling data, The ordering is still interleaved but each thread's output is seperate from the others.
+//By ordering the accesses to the critical region, we have prevented the threads from interfering with each other.
+
 #include<iostream>
 #include<thread>
 #include<chrono>
