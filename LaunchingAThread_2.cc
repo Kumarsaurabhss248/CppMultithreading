@@ -1,3 +1,10 @@
+/*Thread calling function with argument */
+/* • Write a program with a thread that receives one int, prints their values
+• Use
+• A regular function
+• A functor
+• A lambda expression
+*/
 #include<iostream>
 #include<functional>
 #include<thread> 
