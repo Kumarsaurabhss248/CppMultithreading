@@ -1,3 +1,10 @@
+//Thread calling a function with two arguments
+/* • Write a program with a thread that receives two ints, prints their values and displays their sum
+• Use
+• A regular function
+• A functor
+• A lambda expression
+*/
 #include<iostream>
 #include<functional>
 #include<thread> 
