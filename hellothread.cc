@@ -8,10 +8,11 @@ void hello(){
     std::cout<<"Hello Thread\n";
 }
 int main(){
-      thread t{ hello }; // Starting a thread
+    	// Create an instance of std::thread and initialize it with the task
+      std::thread t{ hello }; // Starting a thread
       cout<<"Doing some work"<<endl;
        t.join(); //Tells the main fucnction to stop till this thread finishes
-/* When more than one thread runnings at same time there action can "interleave" */ 
+/* When you have threads running at the same time actions can "interleave" */ 
       return 0;
 }
 
